@@ -9,7 +9,6 @@ from streamlit_option_menu import option_menu
 
 # Add another image logo
 another_image = Image.open('AMRITA.png')
-st.image(another_image, use_column_width=True)
 
 
 # Set page configuration
