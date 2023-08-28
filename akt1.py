@@ -12,7 +12,7 @@ another_image = Image.open('AMRITA.png')
 
 
 # Set page configuration
-st.set_page_config(page_title='QSAR ToolBox', page_icon='🌐', layout="wide")
+st.set_page_config(page_title='AKT1-Pred', page_icon='🌐', layout="wide")
 
 # Create title and subtitle
 html_temp = """
@@ -55,6 +55,13 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 st.sidebar.title("AKT1-Pred")
 st.sidebar.header("Menu")
 CB = st.sidebar.checkbox("Web Application Information")
+
+
+if CB:
+    st.title('Application Description')
+    st.success(
+        " This module of [**AKT1Pred**](https://github.com/MohanChemoinformaticsLab/Akt1_Pred) has been built to predict bioactivity and identify potent inhibitors against AKT1 using robust machine learning algorithms."
+    )
 
 # sidebar for navigation
 with st.sidebar:
@@ -99,7 +106,7 @@ if selected == 'AKT1 prediction model using pubchemfingerprints':
     with st.sidebar.header('1. Upload your CSV data'):
         uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
         st.sidebar.markdown("""
-        [Example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
+        [Example input file](https://raw.githubusercontent.com/MohanChemoinformaticsLab/Akt1_Pred/main/predict_phyto.txt)
         """)
 
     if st.sidebar.button('Predict'):
