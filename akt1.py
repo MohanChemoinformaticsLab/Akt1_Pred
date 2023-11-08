@@ -36,7 +36,7 @@ This app allows you to predict the bioactivity of any molecule towards inhibitin
 
 **Credits**
 - App built in `Python` + `Streamlit` by [Ratul Bhowmik, Dr. C. Gopi Mohan, Sunil Kumar, Dr. Bijo Mathew]
-- Author affiliations [Bioinformatics and Computational Biology Lab, Amrita School of Nanosciences and Molecular Medicine, Amrita Vishwa Vidyapeetham, Kochi]
+- Author affiliations [Bioinformatics and Computational Biology Lab, Amrita School of Nanosciences and Molecular Medicine, Amrita Vishwa Vidyapeetham, Kochi & Department of Pharmaceutical Chemistry, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, Kochi]
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
 
 - **To be a registered user (free of charge) of this site for academic/commercial purposes, kindly download from here (http://surl.li/kcyed) and sign a one-time License Agreement Form and send it to cgmohan@acnsmm.amrita.edu
